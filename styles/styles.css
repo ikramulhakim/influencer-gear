@@ -147,8 +147,9 @@ box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
 
 .card-container{
     gap: 30px;
-    margin-left: 210px;
-    margin-right: 210px;
+    /* margin-left: 210px;
+    margin-right: 210px; */
+    padding: 0px 10%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     
