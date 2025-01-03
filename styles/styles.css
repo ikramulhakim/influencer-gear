@@ -263,6 +263,7 @@ line-height: 24px;
 /* small deviceeeeeeeeeeeeeeeeee */
 
 @media screen and (max-width: 576px) {
+    
    
     .container-1{
         align-items: center;
@@ -303,22 +304,29 @@ height: 100%;
         grid-template-columns: repeat(1,1fr);
     }
     .last{
+        /* margin-left: 50%; */
+        padding: 30px ;
         flex-direction: column-reverse;
         align-items: center;
     }
     .last-last{
+        
         margin-top: 10px;
         width: 329px;
 height: 88px;
+
     }
    
 
     .last-image{
+   
         position: relative;
         top: 150px;
     }
 
     footer{
+   
+        padding: 50px;
         position: relative;
         top: 150px;
     }
